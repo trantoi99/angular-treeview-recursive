@@ -1,0 +1,7 @@
+body, input, button {
+  font-family: Lato;
+}
+
+button, input[type] {
+  font-size: 14px
+}

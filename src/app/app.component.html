@@ -1,0 +1,12 @@
+<div *featureFlags="['a', 'e']; else elseTpl">
+hello
+</div>
+
+<ng-template #elseTpl>
+  else
+</ng-template>
+
+<h3>Tree View</h3>
+<div>
+<app-treeview [list]="list$ | async" [matcher]="matcher"></app-treeview>
+</div>
